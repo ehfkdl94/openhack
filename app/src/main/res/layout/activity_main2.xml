@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcomMessage"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:text="아이디"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:text="비밀번호"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/unameText"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="331dp"
+        android:layout_height="43dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <TextView
+        android:id="@+id/phnumText"
+        android:layout_width="329dp"
+        android:layout_height="36dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/honorticketlogo" />
+
+    <TextView
+        android:id="@+id/plusshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="308dp"
+        android:text="더보기" />
+
+
+    <view
+        android:id="@+id/view"
+        class="android.support.v4.view.ViewPager"
+        layout_alignParentBottom="true"
+        layout_alignParentStart="true"
+        layout_alignParentTop="true"
+        layout_centerHorizontal="true"
+        layout_marginBottom="184dp"
+        layout_marginStart="58dp"
+        layout_marginTop="54dp"
+        android:layout_width="334dp"
+        android:layout_height="213dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/plusshow"
+        android:layout_alignStart="@+id/view"
+        android:text="K-POP"
+        android:textColor="@color/logocolor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_toStartOf="@+id/logo"
+        android:text="인기 티켓 >"
+        android:textColor="@color/logocolor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/t1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/chungha1" />
+
+            <ImageView
+                android:id="@+id/t2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/nct1" />
+
+            <ImageView
+                android:id="@+id/t3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/redvelvet1" />
+
+            <ImageView
+                android:id="@+id/t4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/twice1" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_below="@+id/album"
+        android:text="청 하" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/album"
+        android:layout_marginStart="136dp"
+        android:text="NCT" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/logo"
+        android:layout_below="@+id/album"
+        android:text="레드벨벳" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/album"
+        android:layout_marginEnd="39dp"
+        android:text="트와이스" />
+
+    <ImageView
+        android:id="@+id/selectcat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ticket" />
+
+
+</RelativeLayout>
